@@ -4,4 +4,9 @@
     presentes na frase.
 '''
 
-# terminar em casa
+def separarFrase(frase):
+    palavras = frase.split()
+    return palavras
+
+frase = input("Digite uma frase: ")
+print(f"A lista de palavras é de {separarFrase(frase)}")
