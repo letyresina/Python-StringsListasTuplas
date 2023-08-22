@@ -4,10 +4,10 @@
 '''
 
 
-def quantidadeVogais(a):
+def quantidadeVogais(palavra):
     cont = 0
     vogais = 'aeiouAEIOU'
-    for i in a:
+    for i in palavra:
         if i in vogais:
             cont += 1
     return cont
