@@ -4,18 +4,15 @@
     com os números pares e outra com os números ímpares. 
 '''
 
-numeros =[]
+# numeros =[]
 pares = []
 impares = []
 
 for i in range(10):
     num = int(input("Informe um número inteiro qualquer: "))
-    numeros.append(num)
-
-for item in numeros:
-    if item % 2 == 0:
-        pares.append(item)
+    if num % 2 == 0:
+        pares.append(num)
     else:
-        impares.append(item)
+        impares.append(num)
 
 print(f"\n Pares: {pares} \n Ímpares: {impares} \n")
